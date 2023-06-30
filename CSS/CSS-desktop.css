@@ -35,8 +35,8 @@ header {
 header div:last-child {
   background-image: url(../images/banner.jpg);
   height: 600px;
-  background-position: center;
-  background-size: 100% 150%;
+  background-position: top;
+  background-size: 100% 170%;
   background-repeat: no-repeat;
 }
 header div:last-child h1 {
@@ -52,15 +52,17 @@ header div:last-child p {
   padding-inline: 500px;
   margin-top: 30px;
 }
-header div:last-child button {
+header div:last-child button,
+header div:last-child button a {
   background-color: #f04c2f;
-  padding: 15px;
+  padding: 10px;
   color: white;
   border-radius: 7px;
   width: 180px;
   border: 0px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-top: 40px;
+  text-decoration: none;
 }
 
 /* main */
@@ -87,8 +89,7 @@ section figure {
 }
 section > figure img {
   border-radius: 1000px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 section > div {
   display: inline-block;

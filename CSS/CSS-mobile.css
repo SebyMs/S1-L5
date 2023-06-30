@@ -51,15 +51,17 @@ header div:last-child p {
   padding-inline: 70px;
   margin-top: 30px;
 }
-header div:last-child button {
+header div:last-child button,
+header div:last-child button a {
   background-color: #f04c2f;
   padding: 15px;
   color: white;
   border-radius: 7px;
   width: 180px;
   border: 0px;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   margin-top: 40px;
+  text-decoration: none;
 }
 
 /* main */
