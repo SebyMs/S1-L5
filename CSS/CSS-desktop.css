@@ -151,11 +151,12 @@ footer div div {
   margin-block: 5px;
   line-height: 1.8rem;
 }
-#copyright {
-  font-size: 0.8rem;
-}
 hr {
   margin-bottom: 40px;
   width: 180px;
   margin-inline: auto;
+}
+footer p:only-of-type,
+footer p:only-of-type a {
+  font-size: 0.8rem;
 }
