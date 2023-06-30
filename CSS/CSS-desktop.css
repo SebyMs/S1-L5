@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+/* font pagina */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+/* layout */
+body > div {
+  margin-inline: auto;
+  width: 1920px;
+  text-align: center;
+}
+header figure {
+  background-color: black;
+  height: 150px;
+  padding-top: 50px;
+  text-align: left;
+  padding-left: 50px;
+}
+
+/* font titoli */
+h1,
+h3,
+h2,
+button {
+  font-family: "Montserrat", sans-serif;
+}
+/* header */
+header {
+  margin-bottom: 100px;
+}
+header div:last-child {
+  background-image: url(../images/banner.jpg);
+  height: 600px;
+  background-position: center;
+  background-size: 120% 190%;
+  background-repeat: no-repeat;
+}
+header div:last-child h1 {
+  font-size: 3rem;
+  color: #25a2c3;
+  padding-top: 150px;
+  line-height: 3rem;
+}
+header div:last-child p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #393d41;
+  padding-inline: 500px;
+  margin-top: 30px;
+}
+header div:last-child button {
+  background-color: #f04c2f;
+  padding: 15px;
+  color: white;
+  border-radius: 7px;
+  width: 180px;
+  border: 0px;
+  font-size: 1.4rem;
+  margin-top: 40px;
+}
+
+/* main */
+section {
+  margin-left: 201px;
+}
+section h3 {
+  color: #25a2c3;
+  font-size: 1.3rem;
+  margin-top: 60px;
+  text-align: left;
+}
+section p {
+  color: #393d41;
+  font-size: 1.3rem;
+  line-height: 2.5rem;
+  font-weight: 100;
+  margin-top: 10px;
+  text-align: left;
+}
+section figure {
+  display: inline-block;
+  margin-right: 200px;
+}
+section > figure img {
+  border-radius: 1000px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+section > div {
+  display: inline-block;
+  margin-bottom: 100px;
+}
+/* main section1 */
+section1 div:first-child {
+  background-color: #f04c2f;
+  color: white;
+  height: 300px;
+}
+section1 h2 {
+  padding-top: 40px;
+  margin-top: 40px;
+  font-size: 2.5rem;
+}
+section1 div p:first-of-type {
+  margin-top: 30px;
+  line-height: 1.8rem;
+  font-size: 1.4rem;
+}
+section1 div div p:last-child {
+  margin-top: 5px;
+}
+/* section2 */
+section2 div {
+  margin-top: 70px;
+  border: 1px solid #dee1e3;
+  width: 400px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  display: inline-block;
+  margin-left: 100px;
+}
+section2 div h3 {
+  color: #25a2c3;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+section2 div p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+/* footer */
+footer div {
+  background-color: #25a2c3;
+  padding: 30px;
+}
+footer h2 {
+  color: white;
+  font-size: 1.5rem;
+}
+footer p,
+a {
+  color: #c8e7f0;
+}
+footer div div {
+  margin-block: 5px;
+  line-height: 1.8rem;
+}
+#copyright {
+  font-size: 0.8rem;
+}
+hr {
+  margin-bottom: 40px;
+  width: 180px;
+  margin-inline: auto;
+}
