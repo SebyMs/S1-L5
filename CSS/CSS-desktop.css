@@ -36,7 +36,7 @@ header div:last-child {
   background-image: url(../images/banner.jpg);
   height: 600px;
   background-position: center;
-  background-size: 120% 190%;
+  background-size: 100% 150%;
   background-repeat: no-repeat;
 }
 header div:last-child h1 {
