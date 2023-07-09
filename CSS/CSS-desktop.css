@@ -6,13 +6,11 @@
 /* font pagina */
 body {
   font-family: "Open Sans", sans-serif;
-}
-/* layout */
-body > div {
   margin-inline: auto;
   width: 1920px;
   text-align: center;
 }
+/* layout */
 header figure {
   background-color: black;
   height: 150px;
