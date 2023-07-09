@@ -12,11 +12,6 @@ body {
   text-align: center;
 }
 /* layout */
-/* body > div {
-  margin-inline: auto;
-  width: 472px;
-  text-align: center;
-} */
 header figure {
   background-color: black;
   height: 150px;
